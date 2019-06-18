@@ -1,0 +1,160 @@
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url("../styles/font/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url("../styles/font/Montserrat-Bold.ttf");
+}
+body {
+    width: 100vw;
+    font-family: "Monserrat-Regular" !important;
+    letter-spacing: 1px;
+}
+p {
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: #8B7BE8 !important;
+}
+h1{
+    letter-spacing: 3px;
+    font-family: "Montserrat-Bold";
+}
+/*=============================================
+=            HERO 1             =
+=============================================*/
+.hero1{
+    text-align: center;
+    height: 100vh;
+    background: #8C6CF3; 
+    background-image:url('../images/background.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom; 
+    margin-top: -50px; 
+}
+.titleSection1{
+    padding-top: 22%;  
+    margin-bottom: 100px;
+    color: whitesmoke;   
+}
+.subTitleSection1{
+    font-size: 1.5em;
+}
+
+.discover{
+    text-transform: uppercase;
+    margin: auto;
+    width: 250px;
+    border: solid white 1px;
+    border-radius: 25px;
+    background: aliceblue;
+    font-size: 0.8em;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+
+/*=====  End of HERO 1   ======*/
+
+
+
+
+/*=============================================
+=            HERO 2           =
+=============================================*/
+
+.heroTitle{
+    color: #8B7BE8;
+    font-size: 3em;
+    margin-top: 5%;
+}
+
+.hero2{
+    height: 200vh;
+}
+        @media(min-width:768px){
+            .hero2{
+                height: 100vh;
+            }
+        }
+    .titleBlock{
+        margin-bottom: 15px;
+    }
+.itemSection2{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+        @media(min-width:768px){
+            .itemSection2{
+                height: 60vh;
+            }
+        }
+.subItemSection2{
+    border: 1px solid silver;
+    border-radius: 8px;
+    padding: 30px;
+}
+.subItemSection2:hover{
+    background: #8B7BE8;
+    color: white !important;
+
+}
+.itemTitle{
+    font-size: 1.7em;
+}
+
+.itemDescription {
+    height: calc(50%);
+}
+.itemPrice {
+    height: calc(30%);
+    font-size: 1.8em;
+}
+.informations {
+    height: calc(20%);
+}
+
+/*=====  End of HERO 2 ======*/
+
+
+
+
+
+
+/*=============================================
+=            HERO 3            =
+=============================================*/
+.hero3{
+    height: 225vh;
+}
+
+        @media(min-width:768px){
+            .hero3{
+                height: 125vh;
+            }
+        }
+.item {
+    height: 45vh;
+    padding: 0 !important;  
+    margin: 10px;
+}
+.logoHero3{
+    width: 25vw !important;
+    height: auto;
+    box-shadow: grey 2px 2px 2px;
+}
+
+
+/*=====  End of HERO 3  ======*/
+
+
+
+    
+
+
+

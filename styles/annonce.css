@@ -1,0 +1,155 @@
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url("../styles/font/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url("../styles/font/Montserrat-Bold.ttf");
+}
+body {
+    background: #F8F8F8;
+    font-family: "Montserrat-Regular" !important;
+}
+img {
+    width: 100%;  
+    height: 100%;
+    box-shadow: 1px 2px 3px solid;
+}
+h5 {
+    color: #8B7BE8;
+    font-family: "Montserrat-Bold" !important;
+    margin-top: 15vh !important;
+}
+
+.container {
+    background: white;
+    margin-top: 10vh !important;
+    box-shadow: 1px 1px 3px silver;
+}
+/*=============================================
+=            Hero1            =
+=============================================*/
+.subTitleHero1{
+    color: silver;
+}
+.inputSearch{
+    background: #F5F5F5 !important;
+    border-radius: 20px !important;
+    margin: 0 !important;
+    height: 99% !important;
+}
+.submyt{
+    background: #8B7BE8;
+    font-size: .8em;
+    color: white !important;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 5% 10%;
+    border:none;
+    
+}
+
+/*=====  End of Hero1  ======*/
+
+
+/*=============================================
+=            Hero 2            =
+=============================================*/
+.annoncemain {
+    padding: 10vh; 
+    height: 40vh;
+    
+}
+
+.left {
+    box-shadow: 2px 2px 5px silver;
+}
+.article{
+    padding-right: 0;
+}
+
+.articleTitle{
+    padding: 20px 0px 0px 25px;
+    color: #8B7BE8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.articleAuthor{
+    padding: 20px;
+    color: #8B7BE8;
+    font-weight: bold;
+}
+.articleText{
+    padding: 20px;
+    color: #8B7BE8;
+    margin: 0;
+}
+
+
+/*=====  End of Hero 2  ======*/
+
+
+
+/*=============================================
+=            Partie oeuvre            =
+=============================================*/
+.oeuvre{
+    padding-bottom: 50px !important;
+    margin-bottom: 70px !important;
+}
+h6 {
+    padding-top: 30px !important;
+}
+.retour {
+    color: #8B7BE8;
+    padding-top: 42px !important;
+    font-weight: bold; 
+}
+.textOeuvre{
+    color: silver;
+}
+.arrow{
+    margin-left: 5px;
+    padding-top: 34px;
+    width: 20px;
+    height: auto;
+}
+
+
+/*=====  End of Partie oeuvre  ======*/
+
+
+
+/*=============================================
+=            Partie Hero            =
+=============================================*/
+.ProposTitle{
+    background: #8B7BE8;
+    padding: 30px;
+    color: white;
+    font-family: "Montserrat-Bold" !important;
+    font-size: 2.4em;
+    border-radius: 5px;
+}
+.buttonPropos{
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    background: #8B7BE8;
+    padding: 10px 15px;
+    margin: 50px;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular" !important;
+
+}
+
+.areaContact{
+    color: white !important;
+}
+
+
+/*=====  End of Partie Hero  ======*/
+
+
+
+

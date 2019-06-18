@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url("../styles/font/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url("../styles/font/Montserrat-Bold.ttf");
+}
+body {
+    font-family: "Montserrat-Regular" !important;
+}
+h1{
+    padding-top: 10vh;
+    font-family: "Montserrat-Bold" !important;
+    
+}
+.main {
+    background: #8D65F8;
+    height: 88vh;
+    width: 100vw;
+}
+.Title {
+    margin: 0;
+    color: white;
+    font-size: 5em;
+    margin-top: 2%;
+    margin-bottom: -6%;
+    font-family: "Montserrat-Regular" !important;
+}
+.dashboard{
+    height: 2vh;
+    color: white;
+    font-size: 1.5em;
+}
+.dashboard2{
+    margin-top: 10vh;
+}
+.rowformPropos{
+    padding-bottom: 10vh !important;
+}
+.inputform {
+    background-color: #B79DF9 !important;  
+    border-radius: 20px !important; 
+    color: white;
+    padding-left: 10px !important;
+}
+.inputformPropos{
+    height: 50% !important;
+}
+.button {
+    background: white !important;
+    margin-top: 50px;
+    border-radius: 20px;
+    background: white;  
+    color: #8D65F8 !important;
+    border-radius: 20px !important; 
+}
+
+
+/*=============================================
+=            Contact            =
+=============================================*/
+
+.areaContact{
+    color: white;
+    padding: 5px;  
+    height: 15vh;
+}
+.buttonContact{
+    width: 10vw;
+}
+
+/*=====  End of Contact  ======*/
+
+

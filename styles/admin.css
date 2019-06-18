@@ -1,0 +1,109 @@
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url("../styles/font/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url("../styles/font/Montserrat-Bold.ttf");
+}
+body {
+    margin: 0;
+    background: #39393A !important;
+    color: white !important;
+    font-family: "Montserrat-Regular";
+}
+a{
+    color: white !important;
+}
+header{
+    height: 12vh;
+    background: #333334;
+    width:100vw;
+    margin-bottom: 5vh !important;
+    padding-top: 3vh !important;
+}
+input {
+    background: #595959;
+    border: none;
+    border-radius: 5px !important;
+}
+.row {
+    
+    padding: 0 5%;
+    margin:0;
+}
+.main {
+    flex-wrap:wrap;
+    background: #464646;
+    border-radius: 3px;
+    padding : 2%;
+}
+.imagetomodify{
+    margin-top: 20vh;
+    margin-left: 10vw;
+    width : 20vw;
+    height:auto;
+    border: 10px solid #464646 !important;
+    border-radius: 5px;
+}
+.entete{
+    padding-bottom: 5vh !important;
+    margin: 2% !important;
+}
+.enteteUnit{
+    color: #9B9B9B;
+    background: #595959 !important;
+    border-radius: 5px !important; 
+    border: #595959 1px solid;
+    width: 30%;
+    padding: 5px;
+}
+.enteteUnitfirst{
+    padding: 5px;
+    color: white;
+    
+}
+textarea{
+    margin-bottom: 5vh;
+    background: #595959;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.grey {
+    color: #595959;
+    padding-right: 5px;
+}
+.buttononform{
+    width: 25vw;
+    margin: 0 auto;
+    
+}
+.btnmodif{
+    background : #8B7BE8;
+    border-radius: 5px; 
+    color: white;
+    border:none;
+    padding: 5px;
+}
+.btncancel{
+    border-radius: 5px;
+    border: #8B7BE8 2px solid;
+    color: #8B7BE8;
+    background: #464646;
+    padding: 3px;
+}
+
+.addname{
+    background: #595959 !important;
+    border: none;
+    padding: 5px;
+    color: #ACACAC; 
+    border-radius: 5px;
+    margin-bottom: 2vh !important;
+}
+
+.bin {
+    padding-left: 20px;
+}
+
